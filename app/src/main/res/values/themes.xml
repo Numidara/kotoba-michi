@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="KotobaTheme" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/night</item>
+        <item name="android:colorAccent">@color/shu</item>
+        <item name="android:colorPrimary">@color/night</item>
+        <item name="android:statusBarColor">@color/night</item>
+        <item name="android:navigationBarColor">@color/night</item>
+    </style>
+    <color name="night">#FF1C1F45</color>
+    <color name="shu">#FFD9472B</color>
+</resources>

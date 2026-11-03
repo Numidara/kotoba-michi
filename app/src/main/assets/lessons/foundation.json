@@ -1,0 +1,1211 @@
+[
+ {
+  "id": "f1",
+  "title": "Premier contact",
+  "theme": "Premier contact",
+  "level": 1,
+  "summary": "S'excuser, dire si l'on comprend, remercier.",
+  "dialogue": [
+   {
+    "spk": "A",
+    "jp": "すみません。",
+    "kana": "すみません",
+    "fr": "Excusez-moi."
+   },
+   {
+    "spk": "B",
+    "jp": "はい。",
+    "kana": "はい",
+    "fr": "Oui ?"
+   },
+   {
+    "spk": "A",
+    "jp": "英語が分かりますか。",
+    "kana": "えいごが わかりますか",
+    "fr": "Comprenez-vous l'anglais ?"
+   },
+   {
+    "spk": "B",
+    "jp": "いいえ、分かりません。",
+    "kana": "いいえ わかりません",
+    "fr": "Non, je ne comprends pas."
+   },
+   {
+    "spk": "A",
+    "jp": "日本語がちょっと分かります。",
+    "kana": "にほんごが ちょっと わかります",
+    "fr": "Je comprends un peu le japonais."
+   },
+   {
+    "spk": "B",
+    "jp": "ああ、そうですか。",
+    "kana": "ああ そうですか",
+    "fr": "Ah, d'accord."
+   }
+  ],
+  "items": [
+   {
+    "kind": "new",
+    "jp": "すみません",
+    "kana": "すみません",
+    "fr": "excusez-moi",
+    "note": "Le « u » de « su » s'entend à peine : on dit presque « smimasen »."
+   },
+   {
+    "kind": "new",
+    "jp": "分かります",
+    "kana": "わかります",
+    "fr": "je comprends",
+    "note": "Le « u » final de « masu » est presque muet."
+   },
+   {
+    "kind": "new",
+    "jp": "分かりません",
+    "kana": "わかりません",
+    "fr": "je ne comprends pas",
+    "note": "« Masen » est la forme négative de « masu »."
+   },
+   {
+    "kind": "combo",
+    "jp": "分かりますか",
+    "kana": "わかりますか",
+    "fr": "vous comprenez ?",
+    "note": "Ajoutez simplement « ka » à la fin pour poser une question."
+   },
+   {
+    "kind": "new",
+    "jp": "日本語",
+    "kana": "にほんご",
+    "fr": "le japonais",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "日本語が分かりますか",
+    "kana": "にほんごが わかりますか",
+    "fr": "vous comprenez le japonais ?",
+    "note": "« Ga » relie la langue au verbe comprendre."
+   },
+   {
+    "kind": "new",
+    "jp": "英語",
+    "kana": "えいご",
+    "fr": "l'anglais",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "英語が分かりますか",
+    "kana": "えいごが わかりますか",
+    "fr": "vous comprenez l'anglais ?",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "はい",
+    "kana": "はい",
+    "fr": "oui",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "いいえ",
+    "kana": "いいえ",
+    "fr": "non",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "いいえ、分かりません",
+    "kana": "いいえ わかりません",
+    "fr": "non, je ne comprends pas",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "ちょっと",
+    "kana": "ちょっと",
+    "fr": "un peu",
+    "note": "Marquez bien la petite pause avant « to »."
+   },
+   {
+    "kind": "combo",
+    "jp": "日本語がちょっと分かります",
+    "kana": "にほんごが ちょっと わかります",
+    "fr": "je comprends un peu le japonais",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "ありがとうございます",
+    "kana": "ありがとう ございます",
+    "fr": "merci beaucoup",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "f2",
+  "title": "Se présenter",
+  "theme": "Se présenter",
+  "level": 1,
+  "summary": "Dire son nom, sa nationalité, et renvoyer la question.",
+  "dialogue": [
+   {
+    "spk": "B",
+    "jp": "はじめまして。田中です。",
+    "kana": "はじめまして たなかです",
+    "fr": "Enchantée. Je suis Tanaka."
+   },
+   {
+    "spk": "A",
+    "jp": "はじめまして。マルタンです。",
+    "kana": "はじめまして マルタンです",
+    "fr": "Enchanté. Je suis Martin."
+   },
+   {
+    "spk": "B",
+    "jp": "マルタンさんはフランス人ですか。",
+    "kana": "マルタンさんは フランスじんですか",
+    "fr": "Monsieur Martin, vous êtes français ?"
+   },
+   {
+    "spk": "A",
+    "jp": "はい、フランス人です。田中さんは？",
+    "kana": "はい フランスじんです たなかさんは",
+    "fr": "Oui, je suis français. Et vous, madame Tanaka ?"
+   },
+   {
+    "spk": "B",
+    "jp": "私は日本人です。よろしくお願いします。",
+    "kana": "わたしは にほんじんです よろしく おねがいします",
+    "fr": "Moi, je suis japonaise. Ravie de vous connaître."
+   },
+   {
+    "spk": "A",
+    "jp": "よろしくお願いします。",
+    "kana": "よろしく おねがいします",
+    "fr": "Ravi de vous connaître."
+   }
+  ],
+  "items": [
+   {
+    "kind": "new",
+    "jp": "はじめまして",
+    "kana": "はじめまして",
+    "fr": "enchanté",
+    "note": "On ne le dit qu'à la toute première rencontre."
+   },
+   {
+    "kind": "combo",
+    "jp": "マルタンです",
+    "kana": "マルタンです",
+    "fr": "je suis Martin",
+    "note": "Votre nom, suivi de « desu »."
+   },
+   {
+    "kind": "new",
+    "jp": "フランス人",
+    "kana": "フランスじん",
+    "fr": "un Français, une Française",
+    "note": "« Jin » veut dire « personne de tel pays »."
+   },
+   {
+    "kind": "combo",
+    "jp": "フランス人です",
+    "kana": "フランスじんです",
+    "fr": "je suis français",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "日本人",
+    "kana": "にほんじん",
+    "fr": "un Japonais, une Japonaise",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "日本人ですか",
+    "kana": "にほんじんですか",
+    "fr": "vous êtes japonais ?",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "私",
+    "kana": "わたし",
+    "fr": "moi, je",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "私はフランス人です",
+    "kana": "わたしは フランスじんです",
+    "fr": "moi, je suis français",
+    "note": "« Wa » annonce le thème : quant à moi…"
+   },
+   {
+    "kind": "new",
+    "jp": "田中さん",
+    "kana": "たなかさん",
+    "fr": "madame Tanaka",
+    "note": "« San » s'ajoute au nom des autres, jamais au sien."
+   },
+   {
+    "kind": "combo",
+    "jp": "田中さんは日本人ですか",
+    "kana": "たなかさんは にほんじんですか",
+    "fr": "madame Tanaka est-elle japonaise ?",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "よろしくお願いします",
+    "kana": "よろしく おねがいします",
+    "fr": "ravi de vous connaître",
+    "note": "Mot à mot : « je compte sur votre bienveillance »."
+   },
+   {
+    "kind": "new",
+    "jp": "お名前は何ですか",
+    "kana": "おなまえは なんですか",
+    "fr": "comment vous appelez-vous ?",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "田中さんは？",
+    "kana": "たなかさんは",
+    "fr": "et vous, madame Tanaka ?",
+    "note": "Un nom suivi de « wa », sur un ton montant, renvoie la question."
+   }
+  ]
+ },
+ {
+  "id": "f3",
+  "title": "Au café",
+  "theme": "Au café",
+  "level": 1,
+  "summary": "Commander, compter jusqu'à deux, demander le prix.",
+  "dialogue": [
+   {
+    "spk": "B",
+    "jp": "いらっしゃいませ。",
+    "kana": "いらっしゃいませ",
+    "fr": "Bienvenue."
+   },
+   {
+    "spk": "A",
+    "jp": "すみません、コーヒーを一つください。",
+    "kana": "すみません コーヒーを ひとつ ください",
+    "fr": "Excusez-moi, un café s'il vous plaît."
+   },
+   {
+    "spk": "B",
+    "jp": "はい。",
+    "kana": "はい",
+    "fr": "Bien."
+   },
+   {
+    "spk": "A",
+    "jp": "お茶もください。いくらですか。",
+    "kana": "おちゃも ください いくらですか",
+    "fr": "Un thé aussi, s'il vous plaît. C'est combien ?"
+   },
+   {
+    "spk": "B",
+    "jp": "五百円です。",
+    "kana": "ごひゃくえんです",
+    "fr": "Cinq cents yens."
+   },
+   {
+    "spk": "A",
+    "jp": "はい、どうぞ。",
+    "kana": "はい どうぞ",
+    "fr": "Voici."
+   }
+  ],
+  "items": [
+   {
+    "kind": "new",
+    "jp": "コーヒー",
+    "kana": "コーヒー",
+    "fr": "un café",
+    "note": "Les voyelles longues comptent double : « kôhî »."
+   },
+   {
+    "kind": "new",
+    "jp": "ください",
+    "kana": "ください",
+    "fr": "s'il vous plaît, donnez-moi",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "コーヒーをください",
+    "kana": "コーヒーを ください",
+    "fr": "un café, s'il vous plaît",
+    "note": "« O » marque ce que vous demandez."
+   },
+   {
+    "kind": "new",
+    "jp": "一つ",
+    "kana": "ひとつ",
+    "fr": "un, pour un objet",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "二つ",
+    "kana": "ふたつ",
+    "fr": "deux, pour des objets",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "コーヒーを二つください",
+    "kana": "コーヒーを ふたつ ください",
+    "fr": "deux cafés, s'il vous plaît",
+    "note": "Le nombre se place juste avant « kudasai »."
+   },
+   {
+    "kind": "new",
+    "jp": "お茶",
+    "kana": "おちゃ",
+    "fr": "du thé",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "お茶もください",
+    "kana": "おちゃも ください",
+    "fr": "du thé aussi, s'il vous plaît",
+    "note": "« Mo » remplace « o » et veut dire « aussi »."
+   },
+   {
+    "kind": "new",
+    "jp": "いくらですか",
+    "kana": "いくらですか",
+    "fr": "c'est combien ?",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "水",
+    "kana": "みず",
+    "fr": "de l'eau",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "水を一つください",
+    "kana": "みずを ひとつ ください",
+    "fr": "une eau, s'il vous plaît",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "五百円",
+    "kana": "ごひゃくえん",
+    "fr": "cinq cents yens",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "五百円ですか",
+    "kana": "ごひゃくえんですか",
+    "fr": "c'est cinq cents yens ?",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "どうぞ",
+    "kana": "どうぞ",
+    "fr": "voici, je vous en prie",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "f4",
+  "title": "Trouver son chemin",
+  "theme": "Demander son chemin",
+  "level": 2,
+  "summary": "Où est…, ici, là-bas, droite, gauche, tout droit.",
+  "dialogue": [
+   {
+    "spk": "A",
+    "jp": "すみません、駅はどこですか。",
+    "kana": "すみません えきは どこですか",
+    "fr": "Excusez-moi, où est la gare ?"
+   },
+   {
+    "spk": "B",
+    "jp": "駅ですか。あそこです。",
+    "kana": "えきですか あそこです",
+    "fr": "La gare ? C'est là-bas."
+   },
+   {
+    "spk": "A",
+    "jp": "右ですか、左ですか。",
+    "kana": "みぎですか ひだりですか",
+    "fr": "À droite ou à gauche ?"
+   },
+   {
+    "spk": "B",
+    "jp": "まっすぐ行って、左です。",
+    "kana": "まっすぐ いって ひだりです",
+    "fr": "Allez tout droit, puis c'est à gauche."
+   },
+   {
+    "spk": "A",
+    "jp": "まっすぐですね。ありがとうございます。",
+    "kana": "まっすぐですね ありがとう ございます",
+    "fr": "Tout droit, c'est ça ? Merci beaucoup."
+   }
+  ],
+  "items": [
+   {
+    "kind": "new",
+    "jp": "どこですか",
+    "kana": "どこですか",
+    "fr": "où est-ce ?",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "駅",
+    "kana": "えき",
+    "fr": "la gare",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "駅はどこですか",
+    "kana": "えきは どこですか",
+    "fr": "où est la gare ?",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "トイレ",
+    "kana": "トイレ",
+    "fr": "les toilettes",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "トイレはどこですか",
+    "kana": "トイレは どこですか",
+    "fr": "où sont les toilettes ?",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "ここ",
+    "kana": "ここ",
+    "fr": "ici",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "あそこ",
+    "kana": "あそこ",
+    "fr": "là-bas",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "あそこです",
+    "kana": "あそこです",
+    "fr": "c'est là-bas",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "右",
+    "kana": "みぎ",
+    "fr": "la droite",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "左",
+    "kana": "ひだり",
+    "fr": "la gauche",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "右ですか、左ですか",
+    "kana": "みぎですか ひだりですか",
+    "fr": "à droite ou à gauche ?",
+    "note": "Deux questions à la suite proposent un choix."
+   },
+   {
+    "kind": "new",
+    "jp": "まっすぐ",
+    "kana": "まっすぐ",
+    "fr": "tout droit",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "まっすぐ行ってください",
+    "kana": "まっすぐ いって ください",
+    "fr": "allez tout droit, s'il vous plaît",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "駅は左です",
+    "kana": "えきは ひだりです",
+    "fr": "la gare est à gauche",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "トイレはここですか",
+    "kana": "トイレは ここですか",
+    "fr": "les toilettes, c'est ici ?",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "まっすぐですね",
+    "kana": "まっすぐですね",
+    "fr": "tout droit, c'est bien ça ?",
+    "note": "« Ne » en fin de phrase demande une confirmation."
+   }
+  ]
+ },
+ {
+  "id": "f5",
+  "title": "Hier, aujourd'hui, demain",
+  "theme": "Parler de son emploi du temps",
+  "level": 2,
+  "summary": "Le présent, le passé et le négatif des verbes polis ; l'heure.",
+  "dialogue": [
+   {
+    "spk": "B",
+    "jp": "マルタンさん、明日何をしますか。",
+    "kana": "マルタンさん あした なにを しますか",
+    "fr": "Monsieur Martin, que faites-vous demain ?"
+   },
+   {
+    "spk": "A",
+    "jp": "明日は京都へ行きます。",
+    "kana": "あしたは きょうとへ いきます",
+    "fr": "Demain, je vais à Kyoto."
+   },
+   {
+    "spk": "B",
+    "jp": "いいですね。何時に行きますか。",
+    "kana": "いいですね なんじに いきますか",
+    "fr": "Super. À quelle heure partez-vous ?"
+   },
+   {
+    "spk": "A",
+    "jp": "九時に行きます。",
+    "kana": "くじに いきます",
+    "fr": "J'y vais à neuf heures."
+   },
+   {
+    "spk": "B",
+    "jp": "昨日は何をしましたか。",
+    "kana": "きのうは なにを しましたか",
+    "fr": "Et hier, qu'avez-vous fait ?"
+   },
+   {
+    "spk": "A",
+    "jp": "昨日はうちで休みました。",
+    "kana": "きのうは うちで やすみました",
+    "fr": "Hier, je me suis reposé à la maison."
+   }
+  ],
+  "items": [
+   {
+    "kind": "new",
+    "jp": "行きます",
+    "kana": "いきます",
+    "fr": "je vais, j'y vais",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "明日",
+    "kana": "あした",
+    "fr": "demain",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "明日行きます",
+    "kana": "あした いきます",
+    "fr": "j'y vais demain",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "京都",
+    "kana": "きょうと",
+    "fr": "Kyoto",
+    "note": "Deux temps seulement au début : « kyô », puis « to »."
+   },
+   {
+    "kind": "combo",
+    "jp": "京都へ行きます",
+    "kana": "きょうとへ いきます",
+    "fr": "je vais à Kyoto",
+    "note": "La particule de direction s'écrit « he » mais se prononce « e »."
+   },
+   {
+    "kind": "new",
+    "jp": "行きました",
+    "kana": "いきました",
+    "fr": "je suis allé",
+    "note": "« Mashita » met le verbe au passé."
+   },
+   {
+    "kind": "new",
+    "jp": "昨日",
+    "kana": "きのう",
+    "fr": "hier",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "昨日京都へ行きました",
+    "kana": "きのう きょうとへ いきました",
+    "fr": "hier, je suis allé à Kyoto",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "今日",
+    "kana": "きょう",
+    "fr": "aujourd'hui",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "今日は行きません",
+    "kana": "きょうは いきません",
+    "fr": "aujourd'hui, je n'y vais pas",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "何時",
+    "kana": "なんじ",
+    "fr": "quelle heure",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "何時に行きますか",
+    "kana": "なんじに いきますか",
+    "fr": "à quelle heure y allez-vous ?",
+    "note": "« Ni » marque un moment précis."
+   },
+   {
+    "kind": "new",
+    "jp": "九時",
+    "kana": "くじ",
+    "fr": "neuf heures",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "九時に行きます",
+    "kana": "くじに いきます",
+    "fr": "j'y vais à neuf heures",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "何をしますか",
+    "kana": "なにを しますか",
+    "fr": "que faites-vous ?",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "休みました",
+    "kana": "やすみました",
+    "fr": "je me suis reposé",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "昨日は休みました",
+    "kana": "きのうは やすみました",
+    "fr": "hier, je me suis reposé",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "f6",
+  "title": "Envies",
+  "theme": "Dire ce qu'on a envie de faire",
+  "level": 3,
+  "summary": "-tai pour les envies, -mashô pour proposer.",
+  "dialogue": [
+   {
+    "spk": "A",
+    "jp": "お腹がすきました。",
+    "kana": "おなかが すきました",
+    "fr": "J'ai faim."
+   },
+   {
+    "spk": "B",
+    "jp": "何が食べたいですか。",
+    "kana": "なにが たべたいですか",
+    "fr": "Qu'avez-vous envie de manger ?"
+   },
+   {
+    "spk": "A",
+    "jp": "すしが食べたいです。",
+    "kana": "すしが たべたいです",
+    "fr": "J'ai envie de sushis."
+   },
+   {
+    "spk": "B",
+    "jp": "いいですね。飲み物は？",
+    "kana": "いいですね のみものは",
+    "fr": "Bonne idée. Et à boire ?"
+   },
+   {
+    "spk": "A",
+    "jp": "ビールが飲みたいです。",
+    "kana": "ビールが のみたいです",
+    "fr": "J'ai envie d'une bière."
+   },
+   {
+    "spk": "B",
+    "jp": "じゃあ、一緒に行きましょう。",
+    "kana": "じゃあ いっしょに いきましょう",
+    "fr": "Alors allons-y ensemble."
+   }
+  ],
+  "items": [
+   {
+    "kind": "new",
+    "jp": "食べます",
+    "kana": "たべます",
+    "fr": "je mange",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "食べたいです",
+    "kana": "たべたいです",
+    "fr": "j'ai envie de manger",
+    "note": "Remplacez « masu » par « tai desu » pour dire une envie."
+   },
+   {
+    "kind": "new",
+    "jp": "すし",
+    "kana": "すし",
+    "fr": "des sushis",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "すしが食べたいです",
+    "kana": "すしが たべたいです",
+    "fr": "j'ai envie de manger des sushis",
+    "note": "Avec « tai », l'objet prend souvent « ga »."
+   },
+   {
+    "kind": "new",
+    "jp": "飲みます",
+    "kana": "のみます",
+    "fr": "je bois",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "飲みたいです",
+    "kana": "のみたいです",
+    "fr": "j'ai envie de boire",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "ビール",
+    "kana": "ビール",
+    "fr": "de la bière",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "ビールが飲みたいです",
+    "kana": "ビールが のみたいです",
+    "fr": "j'ai envie d'une bière",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "何が食べたいですか",
+    "kana": "なにが たべたいですか",
+    "fr": "qu'avez-vous envie de manger ?",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "いいですね",
+    "kana": "いいですね",
+    "fr": "bonne idée",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "行きましょう",
+    "kana": "いきましょう",
+    "fr": "allons-y",
+    "note": "« Mashô » propose de faire quelque chose ensemble."
+   },
+   {
+    "kind": "new",
+    "jp": "一緒に",
+    "kana": "いっしょに",
+    "fr": "ensemble",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "一緒に行きましょう",
+    "kana": "いっしょに いきましょう",
+    "fr": "allons-y ensemble",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "お腹がすきました",
+    "kana": "おなかが すきました",
+    "fr": "j'ai faim",
+    "note": "Mot à mot : « le ventre s'est vidé »."
+   },
+   {
+    "kind": "combo",
+    "jp": "一緒に食べましょう",
+    "kana": "いっしょに たべましょう",
+    "fr": "mangeons ensemble",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "f7",
+  "title": "En voiture",
+  "theme": "Trajets et distances",
+  "level": 3,
+  "summary": "Le moyen de transport, la provenance, la durée d'un trajet.",
+  "dialogue": [
+   {
+    "spk": "B",
+    "jp": "車で来ましたか。",
+    "kana": "くるまで きましたか",
+    "fr": "Vous êtes venu en voiture ?"
+   },
+   {
+    "spk": "A",
+    "jp": "はい、リヨンから車で来ました。",
+    "kana": "はい リヨンから くるまで きました",
+    "fr": "Oui, je suis venu de Lyon en voiture."
+   },
+   {
+    "spk": "B",
+    "jp": "どのくらいかかりますか。",
+    "kana": "どのくらい かかりますか",
+    "fr": "Il faut combien de temps ?"
+   },
+   {
+    "spk": "A",
+    "jp": "一時間ぐらいかかります。",
+    "kana": "いちじかんぐらい かかります",
+    "fr": "Environ une heure."
+   },
+   {
+    "spk": "B",
+    "jp": "遠いですね。",
+    "kana": "とおいですね",
+    "fr": "C'est loin !"
+   },
+   {
+    "spk": "A",
+    "jp": "いいえ、近いですよ。",
+    "kana": "いいえ ちかいですよ",
+    "fr": "Mais non, c'est tout près."
+   }
+  ],
+  "items": [
+   {
+    "kind": "new",
+    "jp": "車",
+    "kana": "くるま",
+    "fr": "la voiture",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "車で",
+    "kana": "くるまで",
+    "fr": "en voiture",
+    "note": "« De » indique le moyen utilisé."
+   },
+   {
+    "kind": "new",
+    "jp": "来ました",
+    "kana": "きました",
+    "fr": "je suis venu",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "車で来ました",
+    "kana": "くるまで きました",
+    "fr": "je suis venu en voiture",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "電車",
+    "kana": "でんしゃ",
+    "fr": "le train",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "電車で行きます",
+    "kana": "でんしゃで いきます",
+    "fr": "j'y vais en train",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "から",
+    "kana": "から",
+    "fr": "depuis, à partir de",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "リヨンから来ました",
+    "kana": "リヨンから きました",
+    "fr": "je viens de Lyon",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "どのくらいかかりますか",
+    "kana": "どのくらい かかりますか",
+    "fr": "combien de temps faut-il ?",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "一時間",
+    "kana": "いちじかん",
+    "fr": "une heure de temps",
+    "note": "« Jikan » sert pour les durées, « ji » pour l'heure qu'il est."
+   },
+   {
+    "kind": "new",
+    "jp": "ぐらい",
+    "kana": "ぐらい",
+    "fr": "environ",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "一時間ぐらいかかります",
+    "kana": "いちじかんぐらい かかります",
+    "fr": "il faut environ une heure",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "遠い",
+    "kana": "とおい",
+    "fr": "loin",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "近い",
+    "kana": "ちかい",
+    "fr": "près",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "遠いですか",
+    "kana": "とおいですか",
+    "fr": "c'est loin ?",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "近いですよ",
+    "kana": "ちかいですよ",
+    "fr": "c'est tout près, vous savez",
+    "note": "« Yo » souligne une information nouvelle pour l'autre."
+   }
+  ]
+ },
+ {
+  "id": "f8",
+  "title": "Au restaurant",
+  "theme": "Au restaurant",
+  "level": 3,
+  "summary": "Être placé, demander le menu, commander, l'addition.",
+  "dialogue": [
+   {
+    "spk": "B",
+    "jp": "いらっしゃいませ。何名様ですか。",
+    "kana": "いらっしゃいませ なんめいさまですか",
+    "fr": "Bienvenue. Combien de personnes ?"
+   },
+   {
+    "spk": "A",
+    "jp": "二人です。",
+    "kana": "ふたりです",
+    "fr": "Nous sommes deux."
+   },
+   {
+    "spk": "A",
+    "jp": "すみません、メニューを見せてください。",
+    "kana": "すみません メニューを みせて ください",
+    "fr": "Excusez-moi, montrez-moi le menu, s'il vous plaît."
+   },
+   {
+    "spk": "B",
+    "jp": "はい、どうぞ。",
+    "kana": "はい どうぞ",
+    "fr": "Voici."
+   },
+   {
+    "spk": "A",
+    "jp": "おすすめは何ですか。",
+    "kana": "おすすめは なんですか",
+    "fr": "Que recommandez-vous ?"
+   },
+   {
+    "spk": "B",
+    "jp": "天ぷらです。",
+    "kana": "てんぷらです",
+    "fr": "La tempura."
+   },
+   {
+    "spk": "A",
+    "jp": "じゃあ、天ぷらを二つお願いします。",
+    "kana": "じゃあ てんぷらを ふたつ おねがいします",
+    "fr": "Alors deux tempuras, s'il vous plaît."
+   }
+  ],
+  "items": [
+   {
+    "kind": "new",
+    "jp": "何名様ですか",
+    "kana": "なんめいさまですか",
+    "fr": "combien de personnes ?",
+    "note": "C'est la question du serveur, très polie."
+   },
+   {
+    "kind": "new",
+    "jp": "二人です",
+    "kana": "ふたりです",
+    "fr": "nous sommes deux",
+    "note": "Pour compter les personnes : « hitori », « futari »."
+   },
+   {
+    "kind": "new",
+    "jp": "一人です",
+    "kana": "ひとりです",
+    "fr": "je suis seul",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "メニュー",
+    "kana": "メニュー",
+    "fr": "le menu",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "見せてください",
+    "kana": "みせて ください",
+    "fr": "montrez-moi, s'il vous plaît",
+    "note": "La forme en « te » suivie de « kudasai » fait une demande polie."
+   },
+   {
+    "kind": "combo",
+    "jp": "メニューを見せてください",
+    "kana": "メニューを みせて ください",
+    "fr": "montrez-moi le menu, s'il vous plaît",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "おすすめは何ですか",
+    "kana": "おすすめは なんですか",
+    "fr": "que recommandez-vous ?",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "お願いします",
+    "kana": "おねがいします",
+    "fr": "s'il vous plaît, je vous le demande",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "天ぷら",
+    "kana": "てんぷら",
+    "fr": "la tempura",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "天ぷらを二つお願いします",
+    "kana": "てんぷらを ふたつ おねがいします",
+    "fr": "deux tempuras, s'il vous plaît",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "お会計",
+    "kana": "おかいけい",
+    "fr": "l'addition",
+    "note": ""
+   },
+   {
+    "kind": "combo",
+    "jp": "お会計をお願いします",
+    "kana": "おかいけいを おねがいします",
+    "fr": "l'addition, s'il vous plaît",
+    "note": ""
+   },
+   {
+    "kind": "new",
+    "jp": "おいしかったです",
+    "kana": "おいしかったです",
+    "fr": "c'était délicieux",
+    "note": "Au passé, le « i » final de « oishii » devient « katta »."
+   },
+   {
+    "kind": "new",
+    "jp": "ごちそうさまでした",
+    "kana": "ごちそうさまでした",
+    "fr": "merci pour ce repas",
+    "note": ""
+   }
+  ]
+ }
+]

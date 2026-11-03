@@ -1,0 +1,81 @@
+name: Build APK
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Moteur vocal et modèle
+        run: ./scripts/fetch-deps.sh
+
+      - name: Trousseau de signature
+        env:
+          KM_KEYSTORE_B64: ${{ secrets.KM_KEYSTORE_B64 }}
+        run: |
+          if [ -n "$KM_KEYSTORE_B64" ]; then
+            echo "$KM_KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/release.jks"
+            echo "KM_KEYSTORE_FILE=$RUNNER_TEMP/release.jks" >> "$GITHUB_ENV"
+            echo "Signature avec le trousseau des secrets du dépôt"
+          else
+            echo "Signature avec keystore/kotoba-michi.jks"
+          fi
+
+      - name: Compiler l'APK
+        env:
+          KM_KEYSTORE_PASSWORD: ${{ secrets.KM_KEYSTORE_PASSWORD }}
+          KM_KEY_PASSWORD: ${{ secrets.KM_KEY_PASSWORD }}
+        run: |
+          [ -n "$KM_KEYSTORE_PASSWORD" ] || unset KM_KEYSTORE_PASSWORD
+          [ -n "$KM_KEY_PASSWORD" ] || unset KM_KEY_PASSWORD
+          ./gradlew --no-daemon assembleRelease
+          cp app/build/outputs/apk/release/app-release.apk "kotoba-michi-${GITHUB_RUN_NUMBER}.apk"
+          ls -lh *.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: kotoba-michi-apk
+          path: kotoba-michi-*.apk
+
+      - name: Publier une version téléchargeable
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "build-${GITHUB_RUN_NUMBER}" "kotoba-michi-${GITHUB_RUN_NUMBER}.apk" \
+            --title "Kotoba Michi · build ${GITHUB_RUN_NUMBER}" \
+            --notes "APK Android (arm64). Ouvre ce lien sur le téléphone et touche le fichier .apk pour l'installer ou le mettre à jour." \
+            --latest
+
+  voix:
+    # Contrôle indépendant du modèle : couverture des kanji et extraits des 10 voix
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: ./scripts/fetch-deps.sh
+      - run: pip install "sherpa-onnx==2.0.1" soundfile numpy
+      - run: python scripts/voice_check.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: extraits-voix
+          path: voice-samples/

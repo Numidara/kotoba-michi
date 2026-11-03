@@ -1,0 +1,58 @@
+plugins {
+    id 'com.android.application'
+}
+
+// Signature : variables d'environnement (secrets GitHub) sinon le trousseau du dépôt.
+def ksFile = System.getenv('KM_KEYSTORE_FILE') ?: "${rootDir}/keystore/kotoba-michi.jks"
+def ksPass = System.getenv('KM_KEYSTORE_PASSWORD') ?: 'kotoba-michi'
+def ksAlias = System.getenv('KM_KEY_ALIAS') ?: 'kotoba'
+def ksKeyPass = System.getenv('KM_KEY_PASSWORD') ?: ksPass
+
+android {
+    namespace 'fr.numidara.kotobamichi'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'fr.numidara.kotobamichi'
+        minSdk 26
+        targetSdk 35
+        versionCode((System.getenv('GITHUB_RUN_NUMBER') ?: '1').toInteger())
+        versionName "1.0.${System.getenv('GITHUB_RUN_NUMBER') ?: '0'}"
+        ndk { abiFilters 'arm64-v8a' }
+    }
+
+    signingConfigs {
+        release {
+            storeFile file(ksFile)
+            storePassword ksPass
+            keyAlias ksAlias
+            keyPassword ksKeyPass
+            enableV1Signing true
+            enableV2Signing true
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+        }
+        debug {
+            signingConfig signingConfigs.release
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    // Les modèles ONNX sont lus tels quels par le moteur natif : pas de compression
+    androidResources {
+        noCompress 'onnx', 'bin', 'json'
+    }
+
+    packagingOptions {
+        jniLibs { useLegacyPackaging false }
+    }
+}

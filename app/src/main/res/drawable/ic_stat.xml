@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icône de notification : une route qui file vers l'horizon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp" android:height="24dp"
+    android:viewportWidth="24" android:viewportHeight="24">
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M10.6,3h2.8l5.6,18h-5.2l-0.5,-3h-2.6l-0.5,3H5L10.6,3zM11.3,8l-0.4,3h2.2l-0.4,-3H11.3zM10.5,13.5l-0.4,2.5h3.8l-0.4,-2.5H10.5z" />
+</vector>
