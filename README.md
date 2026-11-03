@@ -46,5 +46,12 @@ utilise en priorité. Attention : changer de trousseau oblige à désinstaller l
 | `Generator.java` | Écriture de nouvelles leçons par l'API Anthropic |
 | `com/k2fsa/sherpa/onnx/*` | Liaison Java vers `libsherpa-onnx-jni.so` (mêmes champs que l'API Kotlin officielle v2.0.1) |
 
-Licences : sherpa-onnx (Apache 2.0) ; modèle Supertonic 3 sous la licence de Supertone, jointe dans
-`app/src/main/assets/supertonic/` après `fetch-deps.sh`.
+## Licence
+
+Le code de Kotoba Michi est publié sous licence MIT (voir [`LICENSE`](LICENSE)), © 2026 Stella Caltagirone.
+
+Composants tiers, téléchargés au moment de la compilation et non couverts par cette licence :
+- [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) et ONNX Runtime : licence Apache 2.0 ;
+  les classes de `com/k2fsa/sherpa/onnx/` reprennent l'interface de son API Kotlin ;
+- modèle de voix Supertonic 3 (Supertone) : sa propre licence, jointe dans
+  `app/src/main/assets/supertonic/` après `fetch-deps.sh`.
